@@ -1,0 +1,33 @@
+{
+  "name": "cell-retail-backend",
+  "version": "1.0.0",
+  "description": "Backend built with ExpressJS and MongoDB",
+  "main": "app.js",
+  "engines": {
+    "node": "^8.11.3",
+    "npm": "^5.6.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TRUC Vu",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": "3000"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9",
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
